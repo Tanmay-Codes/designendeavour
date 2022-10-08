@@ -1,0 +1,54 @@
+/* --maincolor: #b3a29a;
+  --sectioncolor: #eae5e1;
+  --tintcolor: #b3a29a;
+  --accentcolor: #2e1b11;
+  --transparentcolor: rgba(18, 26, 30, 0.80);
+  --shade: #eae5e1;    
+  --fs: 62.5%;    */
+
+.card {
+  height: 400px;
+  width: 300px;
+  background-color: var(--maincolor);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  /* background: url(../../../../public/Assets/services_imgs/stb.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+  -webkit-box-shadow: -10px -11px 17px -14px rgba(46, 27, 17, 0.78);
+  -moz-box-shadow: -10px -11px 17px -14px rgba(46, 27, 17, 0.78);
+  box-shadow: -10px -11px 17px -14px rgba(46, 27, 17, 0.78);
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  background: var(--shade);
+  transition: all 0.3s ease-out;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+}
+.tag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  color: var(--accentcolor);
+}
+.card:hover .img {
+  height: 200px;
+  width: 100%;
+  background: var(--transparentcolor);
+  border-radius: 25px 25px 0px 0px;
+}
+.card:hover .tag {
+  color: var(--shade);
+}
+.card:hover .tag > p {
+  display: none;
+}
