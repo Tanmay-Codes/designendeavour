@@ -1,0 +1,43 @@
+.quote-main-container{
+    width: 100%;
+    height: 300px;
+    background-color: var(--shade);
+}
+
+.quote-container{
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.question-container{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.question{
+    padding: 20px;
+}
+
+.quote-btn{
+    -webkit-box-shadow: -2px -8px 12px -10px rgba(46, 27, 17, 0.45);
+    -moz-box-shadow: -2px -8px 12px -10px rgba(46, 27, 17, 0.45);
+    box-shadow: -2px -8px 12px -10px rgba(46, 27, 17, 0.45);
+}
+.softwares{
+    width: 70%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.software-logo{
+    width: 150px;
+}
+.software-logo-img{
+    width: 100%;
+}

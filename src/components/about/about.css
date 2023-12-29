@@ -26,14 +26,13 @@
     width: 60%;
     padding-left: 50px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .right-text{
     line-height: 1.5;
     color: var(--accentcolor);
-    align-self: center;
+    /* align-self: center; */
 }
 .right-text>p{
     padding-top: 20px;
@@ -43,4 +42,13 @@
 .right-text>h2{
     color: var(--tintcolor);
     font-style: italic;
+}
+
+.portfolio{
+    margin-top: 15px;
+    background-color: var(--shade);
+    color: var(--accentcolor);
+    -webkit-box-shadow: -2px -8px 12px -10px rgba(46, 27, 17, 0.85);
+    -moz-box-shadow: -2px -8px 12px -10px rgba(46, 27, 17, 0.78);
+    box-shadow: -2px -8px 12px -10px rgba(46, 27, 17, 0.78);
 }

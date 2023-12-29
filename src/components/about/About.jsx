@@ -18,6 +18,7 @@ const About = () => {
               and detailed drawings of the buildings as per the requirements
               mentioned by our clients
             </p>
+            <button className="cta portfolio">Get Portfolio</button>
           </div>
         </div>
       </div>

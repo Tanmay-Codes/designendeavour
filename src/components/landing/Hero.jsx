@@ -3,10 +3,14 @@ import Navbar from './Navbar'
 import './landing.css'
 const Hero = () => {
   return (
-    <div className>
+    <div>
       <div className="hero-container">
         <div className="navbar-container">
-          <div className="logo"></div>
+          <div className="logo-container">
+            <div className="logo"></div>
+            <div className="logo-heading">DESIGN ENDEAVOUR</div>
+            <div className="tagline">Innovation Happens Here</div>
+          </div>
           <Navbar/>
         </div>
         <div className="hero-text-container">

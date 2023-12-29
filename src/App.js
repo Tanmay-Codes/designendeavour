@@ -5,6 +5,9 @@ import About from './components/about/About'
 import Section from './components/section/Section.jsx'
 import Footer from './components/footer/Footer'
 import Services from './components/services/Services'
+import Testimonial from './components/testimonial/Testimonial';
+import Quote from './components/quote/Quote';
+
 
 function App() {
   return (
@@ -13,6 +16,8 @@ function App() {
       <Services/>
       <About/>
       <Section/>
+      <Testimonial/>
+      <Quote/>
       <Footer/>
     </div>
   );
